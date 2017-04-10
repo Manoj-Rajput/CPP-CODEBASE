@@ -12,8 +12,8 @@ class Vect{
 			Vect(const int& given_size);
 			~Vect();
 			
-			getVect();						// Getters & Setters
-			setVect();	
+			void getVect();						// Getters & Setters
+			void setVect();	
 };
 
 Vect :: Vect(const int& given_size){
@@ -27,7 +27,7 @@ Vect :: ~Vect(){
 	delete[] data;						   // Free Array Memory With '[]', No Need To Loop The Delete Statement 
 }
 
-Vect :: getVect(){
+void Vect :: getVect(){
 	
 	cout << "\nData In Vector:\n";
 	
@@ -35,7 +35,7 @@ Vect :: getVect(){
 		cout << endl << i << ". " << data[i];
 }
 
-Vect :: setVect(){
+void Vect :: setVect(){
 	
 	cout << "\nEnter " << size << " Elements For The Vector:\n";
 	

@@ -17,7 +17,7 @@ int main(){
 	cin >> c >> d;
 	
 	cout << "\n\nMinimum of " << a << " & " << b << " Is: " << min(a,b);
-	cout << "\n\nMaximum of " << c << " & " << d << " Is: " << max(c,d);
+	cout << "\n\nMaximum of " << c << " & " << d << " Is: " << max(c,d) << endl;
 	
 	return 0;
 }

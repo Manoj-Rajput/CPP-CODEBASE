@@ -30,7 +30,7 @@ int main(){
 	d6 = SAT;
 	cout << "\nSAT: " << d6;
 	d7 = SUN;
-	cout << "\nSUN: " << d7;
+	cout << "\nSUN: " << d7 << endl; 
 	
 	return 0;
 }
